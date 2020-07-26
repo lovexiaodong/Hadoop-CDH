@@ -9,11 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>Hbase_CDH</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>Hbase_MR</module>
-    </modules>
+    <artifactId>Hbase_MR</artifactId>
 
     <!--<repositories>-->
         <!--<repository>-->
@@ -21,6 +17,7 @@
             <!--<url>https://repository.cloudera.com/artifactory/cloudera-repos/</url>-->
         <!--</repository>-->
     <!--</repositories>-->
+
     <dependencies>
         <dependency>
             <groupId>org.apache.hadoop</groupId>
@@ -60,6 +57,7 @@
                     <source>1.8</source>
                     <target>1.8</target>
                     <encoding>UTF-8</encoding>
+                    <!--    <verbal>true</verbal>-->
                 </configuration>
             </plugin>
             <plugin>
